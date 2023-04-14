@@ -9,3 +9,8 @@ export function Journal(title, body) {
     totalWords = wordArray.length;
     return totalWords;
   };
+
+  Journal.prototype.charCounter = function () {
+    let vowelArr = ["a", "i", "o", "e", "u"];
+    let totalVowels = 0;
+    let totalConsonants = 0;
