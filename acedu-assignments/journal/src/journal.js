@@ -26,11 +26,11 @@ export function Journal(title, body) {
     };
 
     export  function getTeaser(passage){
-        const wordSplit = passage.split(" ");
-        const teaserWord = [];
-        for(let i = 0; i < 9; i++){
-          teaserWord.push(wordSplit[i]);
-        }
-        return teaserWord;
-      }
+  const wordSplit = passage.split(" ");
+  const teaserWord = [];
+  for(let i = 0; i < 9; i++){
+    teaserWord.push(wordSplit[i]);
+  }
+  return teaserWord;
+}
     
